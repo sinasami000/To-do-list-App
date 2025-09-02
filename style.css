@@ -270,6 +270,9 @@ ol li span {
 .new p{
   margin: 0;
 }
+.typebtn p{
+  height: 10px;
+}
 @media (min-width: 991px) {
   section {
     width: 50%;
@@ -282,5 +285,8 @@ ol li span {
 @media (max-width: 575px) {
   .main-content-newnote {
     width: 100%;
+  }
+  #searchbox{
+    width: 50%;
   }
 }
