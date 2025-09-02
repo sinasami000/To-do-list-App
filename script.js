@@ -171,9 +171,9 @@ btn2.addEventListener("click", () => {
   for (let i = 0; i < listItems.length; i++) {
     const listItem = listItems[i];
     if (listItem.classList.contains("checked")) {
-      listItem.style.display = "none";
-    } else {
       listItem.style.display = "";
+    } else {
+      listItem.style.display = "none";
     }
   }
 });
@@ -183,9 +183,9 @@ btn3.addEventListener("click", () => {
   for (let i = 0; i < listItems.length; i++) {
     const listItem = listItems[i];
     if (!listItem.classList.contains("checked")) {
-      listItem.style.display = "none";
-    } else {
       listItem.style.display = "";
+    } else {
+      listItem.style.display = "none";
     }
   }
 });
