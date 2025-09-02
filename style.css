@@ -289,4 +289,10 @@ ol li span {
   #searchbox{
     width: 50%;
   }
+  ol{
+    width: 95%;
+  }
+  ol li{
+    font-size: medium;
+  }
 }
